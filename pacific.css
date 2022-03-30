@@ -1,0 +1,42 @@
+/*Add this in so that older browsers know how to display newer HTML5 elements*/
+header, nav, main, footer, aside {display: block;}
+/*By default browser only includes widht/height of the element to determine space to take up,
+by changing the box-sizing to border-box, any padding and border will be included in the width and height
+use universal selector (*) to select all elements*/
+*{box-sizing: border-box;}
+
+body {margin: 0;
+	 background-color: #ffffff;
+   color: #666666;
+   font: Arial;
+}
+header {  background-color: #000033;
+ color: #ffffff;
+ font: georgia;
+}
+nav { font-weight: bold;
+  background-color: #90c7e3;
+}
+aside {
+}
+main {
+}
+footer { font-size: .7em;
+  font-style: italic;
+  text-align: center;
+}
+h1 { line-height: 200%;
+}
+h2 {color: #3399cc;
+  font: georgia;
+}
+dt { color: #000033;
+  font-weight: bold;
+}
+.resort {
+  color: #000033;
+  font-size: 1.2em;
+}
+#wrapper { width: 80%;
+margin-left: auto;
+margin-right: auto;}
