@@ -5,14 +5,14 @@ by changing the box-sizing to border-box, any padding and border will be include
 use universal selector (*) to select all elements*/
 *{box-sizing: border-box;}
 
-body {margin: 0;
+body {
 	 background-color: #ffffff;
    color: #666666;
-   font: Arial;
+   font-family: Veranda, Arial, sans-serif;
 }
 header {  background-color: #000033;
  color: #ffffff;
- font: georgia;
+ font-family: Georgia, serif;
 }
 nav { font-weight: bold;
   background-color: #90c7e3;
@@ -28,7 +28,7 @@ footer { font-size: .7em;
 h1 { line-height: 200%;
 }
 h2 {color: #3399cc;
-  font: georgia;
+  font-family: Georgia, serif;
 }
 dt { color: #000033;
   font-weight: bold;
